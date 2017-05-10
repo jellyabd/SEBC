@@ -13,8 +13,11 @@
   ```
 * How do you upgrade the CM agents?
   ```
-  a. upgrade the CM server
-  b. Hosts -> Re-run Upgrade Wizard
+  a. stop CM server 
+  b. upgrade the CM server
+  c. start CM server
+  d. make sure CM server can access all host with agents through  ssh(with key/passwd or authorized_file)
+  e. login in to CM server, then can upgrade
   ```
 * Give the `tsquery` statement used to chart Hue's CPU utilization?
   ```
