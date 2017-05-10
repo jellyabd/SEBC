@@ -1,4 +1,5 @@
 <html>
+<h3>Show clusters</h3>
 <pre>
 apple:~ liuzhe$ curl -u admin:admin 'http://54.193.24.155:7180/api/v1/clusters'
 {
@@ -10,7 +11,7 @@ apple:~ liuzhe$ curl -u admin:admin 'http://54.193.24.155:7180/api/v1/clusters'
 </pre>
 <hr/>
 
-
+<h3>Show hive status</h3>
 <pre>
 }apple:~ liuzhe$ curl -u admin:admin 'http://54.193.24.155:7180/api/v1/clusters/whitelilis/services/hive'
 {
@@ -34,6 +35,7 @@ apple:~ liuzhe$ curl -u admin:admin 'http://54.193.24.155:7180/api/v1/clusters'
 </pre>
 <hr/>
 
+<h3>Stop hive and check it</h3>
 <pre>
 apple:~ liuzhe$ curl -X POST -u admin:admin 'http://54.193.24.155:7180/api/v1/clusters/whitelilis/services/hive/commands/stop'
 {
@@ -47,11 +49,9 @@ apple:~ liuzhe$ curl -X POST -u admin:admin 'http://54.193.24.155:7180/api/v1/cl
   }
 }
 </pre>
-<hr/>
-
 
 <pre>
-}apple:~ liuzhe$ curl -u admin:admin 'http://54.193.24.155:7180/api/v1/clusters/whitelilis/services/hive'
+apple:~ liuzhe$ curl -u admin:admin 'http://54.193.24.155:7180/api/v1/clusters/whitelilis/services/hive'
 {
   "name" : "hive",
   "type" : "HIVE",
@@ -69,10 +69,11 @@ apple:~ liuzhe$ curl -X POST -u admin:admin 'http://54.193.24.155:7180/api/v1/cl
     "summary" : "DISABLED"
   } ],
   "configStale" : false
-}apple:~ liuzhe$
+}
 </pre>
 <hr/>
 
+<h3>Start hive and check it</h3>
 <pre>
 }apple:~ liuzhe$ curl -X POST -u admin:admin 'http://54.193.24.155:7180/api/v1/clusters/whitelilis/services/hive/commands/start'
 {
@@ -86,8 +87,6 @@ apple:~ liuzhe$ curl -X POST -u admin:admin 'http://54.193.24.155:7180/api/v1/cl
   }
 }
 </pre>
-<hr/>
-
 
 <pre>
 apple:~ liuzhe$ curl -u admin:admin 'http://54.193.24.155:7180/api/v1/clusters/whitelilis/services/hive'
@@ -108,6 +107,5 @@ apple:~ liuzhe$ curl -u admin:admin 'http://54.193.24.155:7180/api/v1/clusters/w
     "summary" : "GOOD"
   } ],
   "configStale" : false
-}apple:~ liuzhe$
-
+}
 </pre>
