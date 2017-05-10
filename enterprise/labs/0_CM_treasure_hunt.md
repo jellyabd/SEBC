@@ -7,8 +7,14 @@
   Administration -> Settings ->  Category -> Kerberos -> security_realm
   ```
 * Which CDH service(s) host a property for enabling Kerberos authentication?
+  ```
+  Namenode
+  ResourceManager
+  ```
 * How do you upgrade the CM agents?
   ```
+  a. upgrade the CM server
+  b. Hosts -> Re-run Upgrade Wizard
   ```
 * Give the `tsquery` statement used to chart Hue's CPU utilization?
   ```
