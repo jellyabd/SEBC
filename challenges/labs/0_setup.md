@@ -40,4 +40,17 @@ extras                                                                          
 updates                                                                           CentOS-6 - Updates                                                                             270
 repolist: 7,040
 </pre>
+
+<h3>List the /etc/passwd entries for zhou and chen</h3>
+<pre>
+zhou:x:2800:501::/home/zhou:/bin/bash
+chen:x:2900:500::/home/chen:/bin/bash
+</pre>
+
+<h3>List the /etc/group entries for shanghai and beijing</h3>
+<pre>
+shanghai:x:500:
+beijing:x:501:
+</pre>
+
 </html>
