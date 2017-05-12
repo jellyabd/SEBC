@@ -4,11 +4,11 @@ AWS
 <h3>List your instances by their IP address and DNS name</h3>
 <table>
 <tr><td>Ip</td><td>hostname</td><td>Dns used outside</td></tr>
-<tr><td>172.31.9.183</td> <td>p1</td>      <td></td></tr>
-<tr><td><tr>172.31.0.72</td>  <td>p2</td>  <td></td></tr>
-<tr><td>172.31.0.20</td>  <td>p3</td>      <td></td></tr>
-<tr><td>172.31.7.170</td> <td>p4</td>      <td></td></tr>
-<tr><td>172.31.4.149</td> <td>p5</td>      <td></td></tr>
+<tr><td>172.31.9.183</td> <td>p1</td>      <td>ec2-52-53-237-23.us-west-1.compute.amazonaws.com</td></tr>
+<tr><td><tr>172.31.0.72</td>  <td>p2</td>  <td>ec2-52-53-249-77.us-west-1.compute.amazonaws.com</td></tr>
+<tr><td>172.31.0.20</td>  <td>p3</td>      <td>ec2-54-67-0-246.us-west-1.compute.amazonaws.com</td></tr>
+<tr><td>172.31.7.170</td> <td>p4</td>      <td>ec2-54-183-169-16.us-west-1.compute.amazonaws.com</td></tr>
+<tr><td>172.31.4.149</td> <td>p5</td>      <td>ec2-54-67-124-49.us-west-1.compute.amazonaws.com</td></tr>
 </table>
 <h3>List the Linux release you are using</h3>
 <pre>
