@@ -1,6 +1,9 @@
 <html>
 <h3>The hostname of your database server</h3>
+<pre>
+[root@p1 ~]# hostname
 p1
+</pre>
 <h3>The command and output for showing the database server version</h3>
 <pre>
 [root@p1 up]# mysql -uroot -p
