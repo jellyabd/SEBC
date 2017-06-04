@@ -155,11 +155,11 @@ Master_SSL_Verify_Server_Cert: No
     Escape character is '^]'.
     N
     5.5.56-logj=2}DyT�%HyMU@!!#*Jvmysql_native_passwordConnection closed by foreign host.
-    ```
+```
 
     After stoping iptables, it works well. 
 
-    ```
+```
 ql> SHOW SLAVE STATUS \G
 *************************** 1. row ***************************
                Slave_IO_State: Waiting for master to send event
